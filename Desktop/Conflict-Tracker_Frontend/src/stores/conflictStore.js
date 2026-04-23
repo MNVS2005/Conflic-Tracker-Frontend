@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import api from '@/api/api' // 👈 usamos tu instancia
+import api from '../API' // 👈 usamos tu instancia
 
 export const useConflictStore = defineStore('conflicts', {
 
